@@ -224,6 +224,8 @@ input[type=submit]:hover {
   z-index: -1;
   top: 750px;
   right: 50px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 
