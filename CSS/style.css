@@ -4,7 +4,7 @@ body {
 
 .banner {
     transform: translate(0px, -80px);
-    width: 95%;
+    width: 100%;
 }
 
 .IntroTitle {
