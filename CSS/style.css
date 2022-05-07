@@ -2,8 +2,6 @@ body {
   background: url(https://brphillis.github.io/images/background.jpg);
 }
 
-
-
 .banner {
     border: 2px solid#000;
     transform: translate(0px, -81px)
@@ -70,7 +68,6 @@ body {
 .container {
   max-width: 1280px;
   margin: 0 auto;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
