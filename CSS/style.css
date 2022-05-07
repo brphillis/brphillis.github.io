@@ -221,8 +221,8 @@ input[type=submit]:hover {
 .marvelthor {
   position:absolute;
   z-index: -1;
-  top: 750px;
-  right: 50px;
+  top: 31.5%;
+  left: 45%;
   max-width: 100%;
   max-height: 100%;
 }
