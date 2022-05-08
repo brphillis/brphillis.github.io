@@ -6,6 +6,11 @@ body {
     width: 100%;
 }
 
+.footer {
+    width: 100%;
+    padding-top: 500px;
+}
+
 .videotitle
 {
   color: white;
