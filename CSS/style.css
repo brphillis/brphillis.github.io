@@ -29,7 +29,7 @@ body {
   max-width: 100%;
   max-height: 100%;
   z-index: -1;
-  margin-top: -300px;
+  margin-top: -700px;
   position:relative;
   float: left;
 }
@@ -40,38 +40,13 @@ body {
   height: 771px;
   max-width: 100%;
   max-height: 100%;
-  z-index: -2;
-  margin-top: -300px;
+  z-index: -1;
+  margin-top: -700px;
   position:relative;
   float: right;
 }
 
-/* WEBSITE TOP VIDEO */
-/* WEBSITE TOP VIDEO */
-/* WEBSITE TOP VIDEO */
-
-.youtubebanner {
-  max-width: 420px;
-  margin: 0px auto;
-  margin-top:-2px;
-}
-
-.youtubebanner > div {
-  position: relative;
-  padding-bottom: 75%;
-  height: 0px;
-}
-
-.youtubebanner iframe {
-  position: absolute;
-  top: 0px;
-  left: -302px;
-  width: 1024px;
-  height: 576px;
-}
-
 .videobox {
-  display: flex;
   color: white;
   background-color: #000000E6;
   font-size: 24px;
@@ -80,13 +55,10 @@ body {
   padding: 20px;
   margin:0 auto;
   width: 90%;
+  display: flex;
   justify-content: space-between;
-  box-sizing: border-box;
-  }
+}
 
-  /* WEBSITE TOP VIDEO END*/
-  /* WEBSITE TOP VIDEO END*/
-  /* WEBSITE TOP VIDEO END*/
 
 .web-text {
   color: white;
@@ -141,7 +113,7 @@ body {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 90%;
   margin: 0 auto;
 
   display: flex;
@@ -279,21 +251,3 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
-input[type=submit]:hover {
-
- background-color: #45a049;
-}
-
-.container2 {
-  border-radius: 5px;
-  background-color: #000000E6;
-  padding: 20px;
-  width: 50%;
-  margin: auto;
-  z-index: 1;
-}
-
-/* Contact Form END*/
-/* Contact Form END*/
-/* Contact Form END*/
