@@ -19,7 +19,7 @@ body {
   border: 3px solid #000;
   border-radius: 8px;
   margin:0 auto;
-  width: 1024px;
+  width: 960px;
 }
 
 .moonknightl {
@@ -29,7 +29,8 @@ body {
   max-width: 100%;
   max-height: 100%;
   z-index: -1;
-  margin-top: -700px;
+  margin-top: -625px;
+  margin-left: 50px;
   position:relative;
   float: left;
 }
@@ -41,7 +42,8 @@ body {
   max-width: 100%;
   max-height: 100%;
   z-index: -1;
-  margin-top: -700px;
+  margin-top: -625px;
+  margin-right: 50px;
   position:relative;
   float: right;
 }
