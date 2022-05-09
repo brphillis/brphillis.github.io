@@ -7,19 +7,11 @@ body {
 }
 
 .footer {
+    padding-top: 300px;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    padding-top: 500px;
-}
-
-.videotitle
-{
-  color: white;
-  background-color: #000000E6;
-  font-size: 24px;
-  border: 3px solid #000;
-  border-radius: 8px;
-  margin:0 auto;
-  width: 1024px;
+    height: 2.5rem;  
 }
 
 .moonknightl {
@@ -46,7 +38,13 @@ body {
   float: right;
 }
 
+@media screen and (max-width:990px) {
+  .videobox { flex-wrap: wrap;  }
+  .video:first-child { flex-basis: 100%; }
+}
+
 .videobox {
+  display: flex;
   color: white;
   background-color: #000000E6;
   font-size: 24px;
@@ -54,11 +52,27 @@ body {
   border-radius: 8px;
   padding: 20px;
   margin:0 auto;
-  width: 1800px;
-  display: flex;
+  width: 90%;
   justify-content: space-between;
-}
+  box-sizing: border-box;
+  flex: 0.5
+  }
 
+  .video {
+    flex: 2;
+   justify-content: space-between;
+  }
+
+.videotitle
+{
+  color: white;
+  background-color: #000000E6;
+  font-size: 24px;
+  border: 3px solid #000;
+  border-radius: 8px;
+  margin:0 auto;
+  width: 1024px;
+}
 
 .web-text {
   color: white;
@@ -214,14 +228,16 @@ h1 {
       background-color: var(--primary);
     }
 
+    .menu {
+      display: flex;
+        }
+    }
+
+
 @media (min-width: 768px) {
   .hamburger {
    display:none;
  }
-.menu {
-  display: flex;
-    }
-}
 
 /* NAVIGATION BAR END*/
 /* NAVIGATION BAR END*/
