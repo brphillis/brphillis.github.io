@@ -8,8 +8,65 @@ body {
 
 .footer {
     width: 100%;
+    position: absolute;
+    margin-bottom: 0 auto;
     padding-top: 500px;
 }
+
+
+/* VIDEO BANNER FLEXBOX */
+/* VIDEO BANNER FLEXBOX */
+/* VIDEO BANNER FLEXBOX */
+
+.videoboxflex {
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 1;
+}
+
+.vid1 {
+   flex:1;
+   padding: 10px;
+   min-height: 256px;
+   min-width: 144px;
+}
+
+.vid2 {
+  flex:1;
+  padding: 10px;
+  min-height: 256px;
+  min-width: 144px;
+}
+
+.vid3 {
+  flex:1;
+  padding: 10px;
+  min-height: 256px;
+  min-width: 144px;
+}
+
+.vid4 {
+  flex:1;
+  padding: 10px;
+  min-height: 256px;
+  min-width: 144px;
+}
+
+.vid5 {
+  flex:1;
+  padding: 10px;
+  min-height: 256px;
+  min-width: 144px;
+}
+
+/* VIDEO BANNER FLEXBOX END */
+/* VIDEO BANNER FLEXBOX END */
+/* VIDEO BANNER FLEXBOX END */
+
+/* VIDEO BANNNER */
+/* VIDEO BANNNER */
+/* VIDEO BANNNER */
 
 .videotitle
 {
@@ -24,8 +81,8 @@ body {
 
 .moonknightl {
 
-  width: 640px;
-  height: 771px;
+  width: 547px;
+  height: 659px;
   max-width: 100%;
   max-height: 100%;
   z-index: -1;
@@ -37,8 +94,8 @@ body {
 
 .moonknightr {
 
-  width: 640px;
-  height: 771px;
+  width: 547px;
+  height: 659px;
   max-width: 100%;
   max-height: 100%;
   z-index: -1;
@@ -60,6 +117,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+/* VIDEO BANNNER END */
+/* VIDEO BANNNER END */
+/* VIDEO BANNNER END */
 
 
 .web-text {
