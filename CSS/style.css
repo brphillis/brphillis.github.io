@@ -2,6 +2,10 @@ body {
   background: url(https://brphillis.github.io/images/background.jpg);
 }
 
+a, a:hover, a:active, a:visited {
+  color: white;
+}
+
 .banner {
     width: 100%;
 }
@@ -56,6 +60,105 @@ body {
 /* VIDEO BANNER FLEXBOX END */
 /* VIDEO BANNER FLEXBOX END */
 /* VIDEO BANNER FLEXBOX END */
+
+/* NEWS FLEXBOX START */
+/* NEWS FLEXBOX START */
+/* NEWS FLEXBOX START */
+
+.marvelheader {
+  font-family: "Bebas Neue";
+  color: white;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+  font-weight: 800;
+  border-width: 4px;
+  background-color: #ED1D24;
+  border-color: white;
+  border-style:solid;
+  width:90%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+}
+
+.newsflexbox {
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+.newsflexbox2 {
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
+
+}
+
+.newsbox1 {
+  flex: 1;
+  padding: 10px;
+  color:white;
+  text-align:center;
+  font-weight:bold;
+
+}
+
+.newsbox2 {
+  flex: 1;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Bebas Neue";
+  color:white;
+  text-align:center;
+  font-weight:bold;
+
+}
+
+.newsbox3 {
+  flex: 1;
+  padding: 10px;
+  color:white;
+  text-align:center;
+  font-weight:bold;
+  text-align: center;
+
+}
+
+.newsbox4 {
+  flex: 1;
+  padding: 10px;
+  color:white;
+  text-align:center;
+  font-weight:bold;
+  text-align: center;
+
+}
+
+.newsbox5 {
+  flex: 1;
+  padding: 10px;
+  color:white;
+  text-align:center;
+  font-weight:bold;
+  text-align: center;
+
+}
+
+/* NEWS FLEXBOX END */
+/* NEWS FLEXBOX END */
+/* NEWS FLEXBOX END */
+
+
 
 /* VIDEO BANNNER */
 /* VIDEO BANNNER */
@@ -185,6 +288,7 @@ nav {
   padding: 10px 30px;
   border-radius: 8px;
   margin:0 auto;
+  margin-top:5px;
   width: 90% !important;
 }
 
@@ -279,15 +383,6 @@ h1 {
     }
 }
 
-/* NAVIGATION BAR END*/
-/* NAVIGATION BAR END*/
-/* NAVIGATION BAR END*/
-
-
-/* Contact Form*/
-/* Contact Form*/
-/* Contact Form*/
-
 input[type=text], select, textarea {
  width: 100%;
  padding: 12px;
@@ -307,3 +402,12 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
+
+/* NAVIGATION BAR END*/
+/* NAVIGATION BAR END*/
+/* NAVIGATION BAR END*/
+
+
+/* Contact Form*/
+/* Contact Form*/
+/* Contact Form*/
