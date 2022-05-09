@@ -110,6 +110,10 @@ a, a:hover, a:active, a:visited {
   color:white;
   text-align:center;
   font-weight:bold;
+  background-color: #000000E6;
+  border: 3px solid #000;
+  border-radius: 8px;
+
 
 }
 
@@ -122,6 +126,10 @@ a, a:hover, a:active, a:visited {
   text-align:center;
   font-weight:bold;
   padding-bottom: 30px;
+  background-color: #000000E6;
+  border: 3px solid #000;
+  border-radius: 8px;
+
 
 }
 
@@ -133,6 +141,10 @@ a, a:hover, a:active, a:visited {
   font-weight:bold;
   text-align: center;
   padding-bottom: 30px;
+  background-color: #000000E6;
+  border: 3px solid #000;
+  border-radius: 8px;
+
 
 }
 
@@ -144,6 +156,10 @@ a, a:hover, a:active, a:visited {
   font-weight:bold;
   text-align: center;
   padding-bottom: 30px;
+  background-color: #000000E6;
+  border: 3px solid #000;
+  border-radius: 8px;
+
 
 }
 
@@ -154,6 +170,10 @@ a, a:hover, a:active, a:visited {
   text-align:center;
   font-weight:bold;
   text-align: center;
+  background-color: #000000E6;
+  border: 3px solid #000;
+  border-radius: 8px;
+
 
 }
 
