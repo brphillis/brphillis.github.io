@@ -14,7 +14,7 @@ a, a:hover, a:active, a:visited {
     width: 100%;
     position: absolute;
     margin-bottom: 0 auto;
-    padding-top: 500px;
+    padding-top: 100px;
 }
 
 
@@ -130,7 +130,6 @@ a, a:hover, a:active, a:visited {
   border: 3px solid #000;
   border-radius: 8px;
 
-
 }
 
 .newsbox3 {
@@ -144,7 +143,6 @@ a, a:hover, a:active, a:visited {
   background-color: #000000E6;
   border: 3px solid #000;
   border-radius: 8px;
-
 
 }
 
@@ -160,7 +158,6 @@ a, a:hover, a:active, a:visited {
   border: 3px solid #000;
   border-radius: 8px;
 
-
 }
 
 .newsbox5 {
@@ -173,7 +170,6 @@ a, a:hover, a:active, a:visited {
   background-color: #000000E6;
   border: 3px solid #000;
   border-radius: 8px;
-
 
 }
 
