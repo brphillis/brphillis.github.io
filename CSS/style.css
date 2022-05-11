@@ -14,52 +14,9 @@ a, a:hover, a:active, a:visited {
     width: 100%;
     position: absolute;
     margin-bottom: 0 auto;
-    padding-top: 100px;
+    margin-top: 200px;
 }
 
-
-/* VIDEO BANNER FLEXBOX */
-/* VIDEO BANNER FLEXBOX */
-/* VIDEO BANNER FLEXBOX */
-
-.videoboxflex {
-    display:flex;
-    justify-content: space-between;
-    padding: 10px;
-    z-index: 1;
-}
-
-.vid1 {
-   flex:1;
-   padding: 10px;
-   min-height: 256px;
-   min-width: 144px;
-}
-
-.vid2 {
-  flex:1;
-  padding: 10px;
-  min-height: 256px;
-  min-width: 144px;
-}
-
-.vid3 {
-  flex:1;
-  padding: 10px;
-  min-height: 256px;
-  min-width: 144px;
-}
-
-.vid4 {
-  flex:1;
-  padding: 10px;
-  min-height: 256px;
-  min-width: 144px;
-}
-
-/* VIDEO BANNER FLEXBOX END */
-/* VIDEO BANNER FLEXBOX END */
-/* VIDEO BANNER FLEXBOX END */
 
 /* NEWS FLEXBOX START */
 /* NEWS FLEXBOX START */
@@ -178,13 +135,11 @@ a, a:hover, a:active, a:visited {
 /* NEWS FLEXBOX END */
 
 
-
 /* VIDEO BANNNER */
 /* VIDEO BANNNER */
 /* VIDEO BANNNER */
 
-.videotitle
-{
+.videotitle {
   color: white;
   background-color: #000000E6;
   font-size: 24px;
@@ -427,6 +382,115 @@ input[type=submit] {
 /* NAVIGATION BAR END*/
 
 
-/* Contact Form*/
-/* Contact Form*/
-/* Contact Form*/
+/*---------------------------------------CHARACTERS PAGE---------------------*/
+/*---------------------------------------CHARACTERS PAGE---------------------*/
+/*---------------------------------------CHARACTERS PAGE---------------------*/
+
+.mastercontentbox {
+
+  flex:wrap;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.characterscontentbox {
+
+  flex:wrap;
+  display:flex;
+  flex-wrap: wrap;
+  padding: 30px 50px 30px 50px;
+  background-color: #00000099;
+  border: 1px solid #000;
+  border-radius: 50px;
+
+}
+
+.boxtitle {
+
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    font-weight: 800;
+    border-width: 4px;
+    background-color: #ED1D24;
+    border-color: white;
+    border: solid;
+    padding-left: 10px;
+    padding-right: 15px;
+
+}
+
+.characterthumbnail {
+  margin-top: 264px;
+  margin-bottom: -120px;
+
+}
+
+.characterthumbnail:hover .characterthumbnail-inner{
+  transform: rotateY(180deg);
+  transition: 1.0s;
+
+}
+
+.characterthumbnail-front, .characterthumbnail-back {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.characterthumbnail-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.characterthumbnail-front {
+ margin-top: -264px;
+}
+
+.characterthumbnail-back {
+  transform: rotateY(180deg);
+  transition: 1.0s;
+  margin-top: -120px;
+
+}
+
+.thumbnailcaption {
+  font-family: "Bebas Neue";
+  font-weight: 300;
+  font-size: 34px;
+  margin-top:-75px;
+  color: white;
+  text-shadow: 4px 4px #000000;
+
+}
+
+.thumbnailcaptionsmall {
+  font-family: "Bebas Neue";
+  font-weight: 300;
+  font-size: 28px;
+  margin-top:-75px;
+  color: white;
+  text-shadow: 4px 4px #000000;
+
+}
+
+
+
+
+
+
+/*---------------------------------------CHARACTERS PAGE END---------------------*/
+/*---------------------------------------CHARACTERS PAGE END---------------------*/
+/*---------------------------------------CHARACTERS PAGE END---------------------*/
