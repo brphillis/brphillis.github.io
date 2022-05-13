@@ -484,7 +484,7 @@ color:white;
 font-family: "Bebas Neue";
 margin-left:200px;
 margin-top: -250px;
-width: 600px;
+width: 300%;
 
 }
 
@@ -547,12 +547,12 @@ width: 600px;
 }
 
 #hiddentext2 {
-position:absolute;
-color:white;
-font-family: "Bebas Neue";
-margin-left:200px;
-margin-top: -250px;
-width: 600px;
+  position:absolute;
+  color:white;
+  font-family: "Bebas Neue";
+  margin-left:200px;
+  margin-top: -250px;
+  width: 300%;
 
 }
 
@@ -614,12 +614,12 @@ width: 600px;
 }
 
 #hiddentext3 {
-position:absolute;
-color:white;
-font-family: "Bebas Neue";
-margin-left:200px;
-margin-top: -250px;
-width: 800px;
+  position:absolute;
+  color:white;
+  font-family: "Bebas Neue";
+  margin-left:200px;
+  margin-top: -250px;
+  width: 300%;
 
 }
 
@@ -681,12 +681,12 @@ width: 800px;
 }
 
 #hiddentext4 {
-position:absolute;
-color:white;
-font-family: "Bebas Neue";
-margin-left:200px;
-margin-top: -250px;
-width: 800px;
+  position:absolute;
+  color:white;
+  font-family: "Bebas Neue";
+  margin-left:200px;
+  margin-top: -250px;
+  width: 300%;
 
 }
 
@@ -748,12 +748,12 @@ width: 800px;
 }
 
 #hiddentext5 {
-position:absolute;
-color:white;
-font-family: "Bebas Neue";
-margin-left:200px;
-margin-top: -250px;
-width: 800px;
+  position:absolute;
+  color:white;
+  font-family: "Bebas Neue";
+  margin-left:200px;
+  margin-top: -250px;
+  width: 300%;
 
 }
 
@@ -815,12 +815,12 @@ width: 800px;
 }
 
 #hiddentext6 {
-position:absolute;
-color:white;
-font-family: "Bebas Neue";
-margin-left:200px;
-margin-top: -250px;
-width: 800px;
+  position:absolute;
+  color:white;
+  font-family: "Bebas Neue";
+  margin-left:200px;
+  margin-top: -250px;
+  width: 300%;
 
 }
 
