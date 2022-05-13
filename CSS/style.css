@@ -426,15 +426,9 @@ input[type=submit] {
 
 }
 
-#hiddentext {
-position:absolute;
-color:white;
-font-family: "Bebas Neue";
-margin-left:200px;
-margin-top: -250px;
-width: 800px;
-
-}
+/*-------------------- HERO 1 ----------------------*/
+/*-------------------- HERO 1 ----------------------*/
+/*-------------------- HERO 1 ----------------------*/
 
 .characterthumbnail {
   margin-top: 264px;
@@ -442,12 +436,11 @@ width: 800px;
 }
 
 
-.characterthumbnail.is-clicked {
+.characterthumbnail.is-clicked, .characterthumbnail-inner.is-clicked, .characterthumbnail-front.is-clicked, .characterthumbnail-back.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
   padding-top: 120px;
   padding-left: 15px;
-  transition-duration: 2.0s;
 }
 
 
@@ -484,6 +477,359 @@ width: 800px;
   margin-top: -120px;
 
 }
+
+#hiddentext {
+position:absolute;
+color:white;
+font-family: "Bebas Neue";
+margin-left:200px;
+margin-top: -250px;
+width: 600px;
+
+}
+
+/*-------------------- HERO 1 END ----------------------*/
+/*-------------------- HERO 1 END ----------------------*/
+/*-------------------- HERO 1 END ----------------------*/
+
+
+/*-------------------- HERO 2 ----------------------*/
+/*-------------------- HERO 2 ----------------------*/
+/*-------------------- HERO 2 ----------------------*/
+
+.characterthumbnail2 {
+  margin-top: 264px;
+  margin-bottom: -120px;
+}
+
+
+.characterthumbnail2.is-clicked, .characterthumbnail-inner2.is-clicked, .characterthumbnail-front2.is-clicked, .characterthumbnail-back2.is-clicked {
+  transform: scale(1.5);
+  margin-right:90%;
+  padding-top: 120px;
+  padding-left: 15px;
+  order:-1;
+}
+
+
+.characterthumbnail2:hover .characterthumbnail-inner2{
+  transform: rotateY(180deg);
+  transition: 1.0s;
+
+}
+
+.characterthumbnail-front2, .characterthumbnail-back2 {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.characterthumbnail-inner2 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.characterthumbnail-front2 {
+ margin-top: -264px;
+}
+
+.characterthumbnail-back2 {
+  transform: rotateY(180deg);
+  transition: 1.0s;
+  margin-top: -120px;
+
+}
+
+#hiddentext2 {
+position:absolute;
+color:white;
+font-family: "Bebas Neue";
+margin-left:200px;
+margin-top: -250px;
+width: 600px;
+
+}
+
+/*-------------------- HERO 2 END ----------------------*/
+/*-------------------- HERO 2 END ----------------------*/
+/*-------------------- HERO 2 END ----------------------*/
+
+/*-------------------- HERO 3 ----------------------*/
+/*-------------------- HERO 3 ----------------------*/
+/*-------------------- HERO 3 ----------------------*/
+
+.characterthumbnail3 {
+  margin-top: 264px;
+  margin-bottom: -120px;
+}
+
+
+.characterthumbnail3.is-clicked, .characterthumbnail-inner3.is-clicked, .characterthumbnail-front3.is-clicked, .characterthumbnail-back3.is-clicked {
+  transform: scale(1.5);
+  margin-right:90%;
+  padding-top: 120px;
+  padding-left: 15px;
+  order:-1;
+}
+
+
+.characterthumbnail3:hover .characterthumbnail-inner3{
+  transform: rotateY(180deg);
+  transition: 1.0s;
+
+}
+
+.characterthumbnail-front3, .characterthumbnail-back3 {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.characterthumbnail-inner3 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.characterthumbnail-front3 {
+ margin-top: -264px;
+}
+
+.characterthumbnail-back3 {
+  transform: rotateY(180deg);
+  transition: 1.0s;
+  margin-top: -120px;
+
+}
+
+#hiddentext3 {
+position:absolute;
+color:white;
+font-family: "Bebas Neue";
+margin-left:200px;
+margin-top: -250px;
+width: 800px;
+
+}
+
+/*-------------------- HERO 3 END ----------------------*/
+/*-------------------- HERO 3 END ----------------------*/
+/*-------------------- HERO 3 END ----------------------*/
+
+/*-------------------- HERO 4 ----------------------*/
+/*-------------------- HERO 4 ----------------------*/
+/*-------------------- HERO 4 ----------------------*/
+
+.characterthumbnail4 {
+  margin-top: 264px;
+  margin-bottom: -120px;
+}
+
+
+.characterthumbnail4.is-clicked, .characterthumbnail-inner4.is-clicked, .characterthumbnail-front4.is-clicked, .characterthumbnail-back4.is-clicked {
+  transform: scale(1.5);
+  margin-right:90%;
+  padding-top: 120px;
+  padding-left: 15px;
+  order:-1;
+}
+
+
+.characterthumbnail4:hover .characterthumbnail-inner4{
+  transform: rotateY(180deg);
+  transition: 1.0s;
+
+}
+
+.characterthumbnail-front4, .characterthumbnail-back4 {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.characterthumbnail-inner4 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.characterthumbnail-front4 {
+ margin-top: -264px;
+}
+
+.characterthumbnail-back4 {
+  transform: rotateY(180deg);
+  transition: 1.0s;
+  margin-top: -120px;
+
+}
+
+#hiddentext4 {
+position:absolute;
+color:white;
+font-family: "Bebas Neue";
+margin-left:200px;
+margin-top: -250px;
+width: 800px;
+
+}
+
+/*-------------------- HERO 4 END ----------------------*/
+/*-------------------- HERO 4 END ----------------------*/
+/*-------------------- HERO 4 END ----------------------*/
+
+/*-------------------- HERO 5 ----------------------*/
+/*-------------------- HERO 5 ----------------------*/
+/*-------------------- HERO 5 ----------------------*/
+
+.characterthumbnail5 {
+  margin-top: 264px;
+  margin-bottom: -120px;
+}
+
+
+.characterthumbnail5.is-clicked, .characterthumbnail-inner5.is-clicked, .characterthumbnail-front5.is-clicked, .characterthumbnail-back5.is-clicked {
+  transform: scale(1.5);
+  margin-right:90%;
+  padding-top: 120px;
+  padding-left: 15px;
+  order:-1;
+}
+
+
+.characterthumbnail5:hover .characterthumbnail-inner5{
+  transform: rotateY(180deg);
+  transition: 1.0s;
+
+}
+
+.characterthumbnail-front5, .characterthumbnail-back5 {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.characterthumbnail-inner5 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.characterthumbnail-front5 {
+ margin-top: -264px;
+}
+
+.characterthumbnail-back5 {
+  transform: rotateY(180deg);
+  transition: 1.0s;
+  margin-top: -120px;
+
+}
+
+#hiddentext5 {
+position:absolute;
+color:white;
+font-family: "Bebas Neue";
+margin-left:200px;
+margin-top: -250px;
+width: 800px;
+
+}
+
+/*-------------------- HERO 5 END ----------------------*/
+/*-------------------- HERO 5 END ----------------------*/
+/*-------------------- HERO 5 END ----------------------*/
+
+/*-------------------- HERO 6 ----------------------*/
+/*-------------------- HERO 6 ----------------------*/
+/*-------------------- HERO 6 ----------------------*/
+
+.characterthumbnail6 {
+  margin-top: 264px;
+  margin-bottom: -120px;
+}
+
+
+.characterthumbnail6.is-clicked, .characterthumbnail-inner6.is-clicked, .characterthumbnail-front6.is-clicked, .characterthumbnail-back6.is-clicked {
+  transform: scale(1.5);
+  margin-right:90%;
+  padding-top: 120px;
+  padding-left: 15px;
+  order:-1;
+}
+
+
+.characterthumbnail6:hover .characterthumbnail-inner6{
+  transform: rotateY(180deg);
+  transition: 1.0s;
+
+}
+
+.characterthumbnail-front6, .characterthumbnail-back6 {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.characterthumbnail-inner6 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.characterthumbnail-front6 {
+ margin-top: -264px;
+}
+
+.characterthumbnail-back6 {
+  transform: rotateY(180deg);
+  transition: 1.0s;
+  margin-top: -120px;
+
+}
+
+#hiddentext6 {
+position:absolute;
+color:white;
+font-family: "Bebas Neue";
+margin-left:200px;
+margin-top: -250px;
+width: 800px;
+
+}
+
+/*-------------------- HERO 6 END ----------------------*/
+/*-------------------- HERO 6 END ----------------------*/
+/*-------------------- HERO 6 END ----------------------*/
+
+
+
 
 .thumbnailcaption {
   font-family: "Bebas Neue";
