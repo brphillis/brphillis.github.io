@@ -439,9 +439,9 @@ input[type=submit] {
 .characterthumbnail.is-clicked, .characterthumbnail-inner.is-clicked, .characterthumbnail-front.is-clicked, .characterthumbnail-back.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
-  padding-top: 135px;
+  padding-top: 145px;
   padding-left: 15px;
-  padding-bottom: 100px;
+  padding-bottom: 160px;
   order:-1;
 }
 
@@ -508,9 +508,9 @@ input[type=submit] {
 .characterthumbnail2.is-clicked, .characterthumbnail-inner2.is-clicked, .characterthumbnail-front2.is-clicked, .characterthumbnail-back2.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
-  padding-top: 135px;
+  padding-top: 145px;
   padding-left: 15px;
-  padding-bottom: 100px;
+  padding-bottom: 160px;
   order:-1;
 }
 
@@ -551,7 +551,7 @@ input[type=submit] {
 #hiddentext2 {
   position:absolute;
   color:white;
-  font-family: "Bebas Neue";
+  font-family: "Lucida Sans";
   margin-left:200px;
   margin-top: -250px;
   width:205%;
@@ -575,9 +575,9 @@ input[type=submit] {
 .characterthumbnail3.is-clicked, .characterthumbnail-inner3.is-clicked, .characterthumbnail-front3.is-clicked, .characterthumbnail-back3.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
-  padding-top: 135px;
+  padding-top: 145px;
   padding-left: 15px;
-  padding-bottom: 100px;
+  padding-bottom: 160px;
   order:-1;
 }
 
@@ -618,11 +618,10 @@ input[type=submit] {
 #hiddentext3 {
   position:absolute;
   color:white;
-  font-family: "Bebas Neue";
+  font-family: "Lucida Sans";
   margin-left:200px;
   margin-top: -250px;
   width:205%;
-
 }
 
 /*-------------------- HERO 3 END ----------------------*/
@@ -642,9 +641,9 @@ input[type=submit] {
 .characterthumbnail4.is-clicked, .characterthumbnail-inner4.is-clicked, .characterthumbnail-front4.is-clicked, .characterthumbnail-back4.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
-  padding-top: 135px;
+  padding-top: 145px;
   padding-left: 15px;
-  padding-bottom: 100px;
+  padding-bottom: 160px;
   order:-1;
 }
 
@@ -685,7 +684,7 @@ input[type=submit] {
 #hiddentext4 {
   position:absolute;
   color:white;
-  font-family: "Bebas Neue";
+  font-family: "Lucida Sans";
   margin-left:200px;
   margin-top: -250px;
   width:205%;
@@ -709,9 +708,9 @@ input[type=submit] {
 .characterthumbnail5.is-clicked, .characterthumbnail-inner5.is-clicked, .characterthumbnail-front5.is-clicked, .characterthumbnail-back5.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
-  padding-top: 135px;
+  padding-top: 145px;
   padding-left: 15px;
-  padding-bottom: 100px;
+  padding-bottom: 160px;
   order:-1;
 }
 
@@ -752,7 +751,7 @@ input[type=submit] {
 #hiddentext5 {
   position:absolute;
   color:white;
-  font-family: "Bebas Neue";
+  font-family: "Lucida Sans";
   margin-left:200px;
   margin-top: -250px;
   width:205%;
@@ -776,9 +775,9 @@ input[type=submit] {
 .characterthumbnail6.is-clicked, .characterthumbnail-inner6.is-clicked, .characterthumbnail-front6.is-clicked, .characterthumbnail-back6.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
-  padding-top: 135px;
+  padding-top: 145px;
   padding-left: 15px;
-  padding-bottom: 100px;
+  padding-bottom: 160px;
   order:-1;
 }
 
@@ -819,7 +818,7 @@ input[type=submit] {
 #hiddentext6 {
   position:absolute;
   color:white;
-  font-family: "Bebas Neue";
+  font-family: "Lucida Sans";
   margin-left:200px;
   margin-top: -250px;
   width:205%;
