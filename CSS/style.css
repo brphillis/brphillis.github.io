@@ -479,12 +479,15 @@ input[type=submit] {
 }
 
 #hiddentext {
-position:absolute;
-color:white;
-font-family: "Bebas Neue";
-margin-left:200px;
-margin-top: -250px;
-width: 300%;
+  position:absolute;
+  color:white;
+  font-family: "Bebas Neue";
+  margin-left:200px;
+  margin-top: -250px;
+  width:300%;
+  flex:wrap;
+  display:flex;
+  flex-wrap: wrap;
 
 }
 
