@@ -829,7 +829,408 @@ input[type=submit] {
 /*-------------------- HERO 6 END ----------------------*/
 /*-------------------- HERO 6 END ----------------------*/
 
+/*-------------------- HERO V1 ----------------------*/
+/*-------------------- HERO V1 ----------------------*/
+/*-------------------- HERO V1 ----------------------*/
 
+.characterthumbnailv1 {
+  margin-top: 264px;
+  margin-bottom: -120px;
+}
+
+
+.characterthumbnailv1.is-clicked, .characterthumbnail-innerv1.is-clicked, .characterthumbnail-frontv1.is-clicked, .characterthumbnail-backv1.is-clicked {
+  transform: scale(1.5);
+  margin-right:90%;
+  padding-top: 145px;
+  padding-left: 15px;
+  padding-bottom: 160px;
+  order:-1;
+}
+
+.characterthumbnailv1:hover .characterthumbnail-innerv1{
+  transform: rotateY(180deg);
+  transition: 1.0s;
+
+}
+
+.characterthumbnail-frontv1, .characterthumbnail-backv1 {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.characterthumbnail-innerv1 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.characterthumbnail-frontv1 {
+ margin-top: -264px;
+}
+
+.characterthumbnail-backv1 {
+  transform: rotateY(180deg);
+  transition: 1.0s;
+  margin-top: -120px;
+
+}
+
+#hiddentextv1 {
+  position:absolute;
+  color:white;
+  font-family: "Lucida Sans";
+  margin-left:200px;
+  margin-top: -250px;
+  width:205%;
+
+}
+
+/*-------------------- HERO V1 END ----------------------*/
+/*-------------------- HERO V1 END ----------------------*/
+/*-------------------- HERO V1 END ----------------------*/
+
+/*-------------------- HERO V2 ----------------------*/
+/*-------------------- HERO V2 ----------------------*/
+/*-------------------- HERO V2 ----------------------*/
+
+.characterthumbnailv2 {
+  margin-top: 264px;
+  margin-bottom: -120px;
+}
+
+
+.characterthumbnailv2.is-clicked, .characterthumbnail-innerv2.is-clicked, .characterthumbnail-frontv2.is-clicked, .characterthumbnail-backv2.is-clicked {
+  transform: scale(1.5);
+  margin-right:90%;
+  padding-top: 145px;
+  padding-left: 15px;
+  padding-bottom: 160px;
+  order:-1;
+}
+
+.characterthumbnailv2:hover .characterthumbnail-innerv2{
+  transform: rotateY(180deg);
+  transition: 1.0s;
+
+}
+
+.characterthumbnail-frontv2, .characterthumbnail-backv2 {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.characterthumbnail-innerv2 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.characterthumbnail-frontv2 {
+ margin-top: -264px;
+}
+
+.characterthumbnail-backv2 {
+  transform: rotateY(180deg);
+  transition: 1.0s;
+  margin-top: -120px;
+
+}
+
+#hiddentextv2 {
+  position:absolute;
+  color:white;
+  font-family: "Lucida Sans";
+  margin-left:200px;
+  margin-top: -250px;
+  width:205%;
+
+}
+
+/*-------------------- HERO V2 END ----------------------*/
+/*-------------------- HERO V2 END ----------------------*/
+/*-------------------- HERO V2 END ----------------------*/
+
+
+/*-------------------- HERO V3 ----------------------*/
+/*-------------------- HERO V3 ----------------------*/
+/*-------------------- HERO V3 ----------------------*/
+
+.characterthumbnailv3 {
+  margin-top: 264px;
+  margin-bottom: -120px;
+}
+
+
+.characterthumbnailv3.is-clicked, .characterthumbnail-innerv3.is-clicked, .characterthumbnail-frontv3.is-clicked, .characterthumbnail-backv3.is-clicked {
+  transform: scale(1.5);
+  margin-right:90%;
+  padding-top: 145px;
+  padding-left: 15px;
+  padding-bottom: 160px;
+  order:-1;
+}
+
+.characterthumbnailv3:hover .characterthumbnail-innerv3{
+  transform: rotateY(180deg);
+  transition: 1.0s;
+
+}
+
+.characterthumbnail-frontv3, .characterthumbnail-backv3 {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.characterthumbnail-innerv3 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.characterthumbnail-frontv3 {
+ margin-top: -264px;
+}
+
+.characterthumbnail-backv3 {
+  transform: rotateY(180deg);
+  transition: 1.0s;
+  margin-top: -120px;
+
+}
+
+#hiddentextv3 {
+  position:absolute;
+  color:white;
+  font-family: "Lucida Sans";
+  margin-left:200px;
+  margin-top: -250px;
+  width:205%;
+
+}
+
+/*-------------------- HERO V3 END ----------------------*/
+/*-------------------- HERO V3 END ----------------------*/
+/*-------------------- HERO V3 END ----------------------*/
+
+/*-------------------- HERO V4 ----------------------*/
+/*-------------------- HERO V4 ----------------------*/
+/*-------------------- HERO V4 ----------------------*/
+
+.characterthumbnailv4 {
+  margin-top: 264px;
+  margin-bottom: -120px;
+}
+
+
+.characterthumbnailv4.is-clicked, .characterthumbnail-innerv4.is-clicked, .characterthumbnail-frontv4.is-clicked, .characterthumbnail-backv4.is-clicked {
+  transform: scale(1.5);
+  margin-right:90%;
+  padding-top: 145px;
+  padding-left: 15px;
+  padding-bottom: 160px;
+  order:-1;
+}
+
+.characterthumbnailv4:hover .characterthumbnail-innerv4{
+  transform: rotateY(180deg);
+  transition: 1.0s;
+
+}
+
+.characterthumbnail-frontv4, .characterthumbnail-backv4 {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.characterthumbnail-innerv4 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.characterthumbnail-frontv4 {
+ margin-top: -264px;
+}
+
+.characterthumbnail-backv4 {
+  transform: rotateY(180deg);
+  transition: 1.0s;
+  margin-top: -120px;
+
+}
+
+#hiddentextv4 {
+  position:absolute;
+  color:white;
+  font-family: "Lucida Sans";
+  margin-left:200px;
+  margin-top: -250px;
+  width:205%;
+
+}
+
+/*-------------------- HERO V4 END ----------------------*/
+/*-------------------- HERO V4 END ----------------------*/
+/*-------------------- HERO V4 END ----------------------*/
+
+/*-------------------- HERO V5 ----------------------*/
+/*-------------------- HERO V5 ----------------------*/
+/*-------------------- HERO V5 ----------------------*/
+
+.characterthumbnailv5 {
+  margin-top: 264px;
+  margin-bottom: -120px;
+}
+
+
+.characterthumbnailv5.is-clicked, .characterthumbnail-innerv5.is-clicked, .characterthumbnail-frontv5.is-clicked, .characterthumbnail-backv5.is-clicked {
+  transform: scale(1.5);
+  margin-right:90%;
+  padding-top: 145px;
+  padding-left: 15px;
+  padding-bottom: 160px;
+  order:-1;
+}
+
+.characterthumbnailv5:hover .characterthumbnail-innerv5{
+  transform: rotateY(180deg);
+  transition: 1.0s;
+
+}
+
+.characterthumbnail-frontv5, .characterthumbnail-backv5 {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.characterthumbnail-innerv5 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.characterthumbnail-frontv5 {
+ margin-top: -264px;
+}
+
+.characterthumbnail-backv5 {
+  transform: rotateY(180deg);
+  transition: 1.0s;
+  margin-top: -120px;
+
+}
+
+#hiddentextv5 {
+  position:absolute;
+  color:white;
+  font-family: "Lucida Sans";
+  margin-left:200px;
+  margin-top: -250px;
+  width:205%;
+
+}
+
+/*-------------------- HERO V5 END ----------------------*/
+/*-------------------- HERO V5 END ----------------------*/
+/*-------------------- HERO V5 END ----------------------*/
+
+/*-------------------- HERO V6 ----------------------*/
+/*-------------------- HERO V6 ----------------------*/
+/*-------------------- HERO V6 ----------------------*/
+
+.characterthumbnailv6 {
+  margin-top: 264px;
+  margin-bottom: -120px;
+}
+
+
+.characterthumbnailv6.is-clicked, .characterthumbnail-innerv6.is-clicked, .characterthumbnail-frontv6.is-clicked, .characterthumbnail-backv6.is-clicked {
+  transform: scale(1.5);
+  margin-right:90%;
+  padding-top: 145px;
+  padding-left: 15px;
+  padding-bottom: 160px;
+  order:-1;
+}
+
+.characterthumbnailv6:hover .characterthumbnail-innerv6{
+  transform: rotateY(180deg);
+  transition: 1.0s;
+
+}
+
+.characterthumbnail-frontv6, .characterthumbnail-backv6 {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.characterthumbnail-innerv6 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.characterthumbnail-frontv6 {
+ margin-top: -264px;
+}
+
+.characterthumbnail-backv6 {
+  transform: rotateY(180deg);
+  transition: 1.0s;
+  margin-top: -120px;
+
+}
+
+#hiddentextv6 {
+  position:absolute;
+  color:white;
+  font-family: "Lucida Sans";
+  margin-left:200px;
+  margin-top: -250px;
+  width:205%;
+
+}
+
+/*-------------------- HERO V6 END ----------------------*/
+/*-------------------- HERO V6 END ----------------------*/
+/*-------------------- HERO V6 END ----------------------*/
 
 
 .thumbnailcaption {
