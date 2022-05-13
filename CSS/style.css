@@ -439,8 +439,10 @@ input[type=submit] {
 .characterthumbnail.is-clicked, .characterthumbnail-inner.is-clicked, .characterthumbnail-front.is-clicked, .characterthumbnail-back.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
-  padding-top: 120px;
+  padding-top: 135px;
   padding-left: 15px;
+  padding-bottom: 100px;
+  order:-1;
 }
 
 
@@ -484,10 +486,7 @@ input[type=submit] {
   font-family: "Bebas Neue";
   margin-left:200px;
   margin-top: -250px;
-  width:300%;
-  flex:wrap;
-  display:flex;
-  flex-wrap: wrap;
+  width:205%;
 
 }
 
@@ -509,11 +508,11 @@ input[type=submit] {
 .characterthumbnail2.is-clicked, .characterthumbnail-inner2.is-clicked, .characterthumbnail-front2.is-clicked, .characterthumbnail-back2.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
-  padding-top: 120px;
+  padding-top: 135px;
   padding-left: 15px;
+  padding-bottom: 100px;
   order:-1;
 }
-
 
 .characterthumbnail2:hover .characterthumbnail-inner2{
   transform: rotateY(180deg);
@@ -555,7 +554,7 @@ input[type=submit] {
   font-family: "Bebas Neue";
   margin-left:200px;
   margin-top: -250px;
-  width: 300%;
+  width:205%;
 
 }
 
@@ -576,11 +575,11 @@ input[type=submit] {
 .characterthumbnail3.is-clicked, .characterthumbnail-inner3.is-clicked, .characterthumbnail-front3.is-clicked, .characterthumbnail-back3.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
-  padding-top: 120px;
+  padding-top: 135px;
   padding-left: 15px;
+  padding-bottom: 100px;
   order:-1;
 }
-
 
 .characterthumbnail3:hover .characterthumbnail-inner3{
   transform: rotateY(180deg);
@@ -622,7 +621,7 @@ input[type=submit] {
   font-family: "Bebas Neue";
   margin-left:200px;
   margin-top: -250px;
-  width: 300%;
+  width:205%;
 
 }
 
@@ -643,11 +642,11 @@ input[type=submit] {
 .characterthumbnail4.is-clicked, .characterthumbnail-inner4.is-clicked, .characterthumbnail-front4.is-clicked, .characterthumbnail-back4.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
-  padding-top: 120px;
+  padding-top: 135px;
   padding-left: 15px;
+  padding-bottom: 100px;
   order:-1;
 }
-
 
 .characterthumbnail4:hover .characterthumbnail-inner4{
   transform: rotateY(180deg);
@@ -689,7 +688,7 @@ input[type=submit] {
   font-family: "Bebas Neue";
   margin-left:200px;
   margin-top: -250px;
-  width: 300%;
+  width:205%;
 
 }
 
@@ -710,11 +709,11 @@ input[type=submit] {
 .characterthumbnail5.is-clicked, .characterthumbnail-inner5.is-clicked, .characterthumbnail-front5.is-clicked, .characterthumbnail-back5.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
-  padding-top: 120px;
+  padding-top: 135px;
   padding-left: 15px;
+  padding-bottom: 100px;
   order:-1;
 }
-
 
 .characterthumbnail5:hover .characterthumbnail-inner5{
   transform: rotateY(180deg);
@@ -756,7 +755,7 @@ input[type=submit] {
   font-family: "Bebas Neue";
   margin-left:200px;
   margin-top: -250px;
-  width: 300%;
+  width:205%;
 
 }
 
@@ -777,11 +776,11 @@ input[type=submit] {
 .characterthumbnail6.is-clicked, .characterthumbnail-inner6.is-clicked, .characterthumbnail-front6.is-clicked, .characterthumbnail-back6.is-clicked {
   transform: scale(1.5);
   margin-right:90%;
-  padding-top: 120px;
+  padding-top: 135px;
   padding-left: 15px;
+  padding-bottom: 100px;
   order:-1;
 }
-
 
 .characterthumbnail6:hover .characterthumbnail-inner6{
   transform: rotateY(180deg);
@@ -823,7 +822,7 @@ input[type=submit] {
   font-family: "Bebas Neue";
   margin-left:200px;
   margin-top: -250px;
-  width: 300%;
+  width:205%;
 
 }
 
