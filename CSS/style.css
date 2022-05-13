@@ -426,11 +426,30 @@ input[type=submit] {
 
 }
 
+#hiddentext {
+position:absolute;
+color:white;
+font-family: "Bebas Neue";
+margin-left:200px;
+margin-top: -250px;
+width: 800px;
+
+}
+
 .characterthumbnail {
   margin-top: 264px;
   margin-bottom: -120px;
-
 }
+
+
+.characterthumbnail.is-clicked {
+  transform: scale(1.5);
+  margin-right:90%;
+  padding-top: 120px;
+  padding-left: 15px;
+  transition-duration: 2.0s;
+}
+
 
 .characterthumbnail:hover .characterthumbnail-inner{
   transform: rotateY(180deg);
