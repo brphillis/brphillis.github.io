@@ -15,3 +15,17 @@ function changeTxt(e){
       (rank===messages.length-1)?rank=0:rank++;
     }, 1000);
 }
+
+
+$(function() {
+
+$(".toggle").on("click", function(){
+
+  if($(".item").hasClass("active")){
+    $(".item").removeClass("active");
+  }
+  else{
+    $(".item").addClass("active");
+  }
+})
+});
