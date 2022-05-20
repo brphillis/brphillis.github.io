@@ -1,0 +1,485 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+.banner {
+  display: block;
+  margin-top: 1vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height:15vh;
+}
+
+body {
+
+   }
+
+.background2 {
+    position: absolute;
+    background: url(https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200%;
+    width:100%;
+    filter: grayscale(80%);
+    top:0;
+    z-index:-5;
+  }
+
+/* NAVBAR ------------------------------------------------------------------------*/
+/* NAVBAR ------------------------------------------------------------------------*/
+/* NAVBAR ------------------------------------------------------------------------*/
+
+
+nav{
+  background: #1c1b1bC2;
+  padding: 5px 20px;
+  z-index: 10;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+ul li ul {
+  display:none;
+}
+
+ul li:hover ul{
+  position: absolute;
+  display: inline-block;
+  background-color: #1c1b1b;
+  justify-content: space-around;
+  opacity: 1;
+  padding: 30px 30px 30px 30px;
+  border-radius:  30px 30px 30px 30px;
+  margin-top: 10px;
+  margin-left:-125px;
+  border-bottom: 5px solid #98AFC7;
+  z-index: 50;
+}
+
+ul li:hover .dropdown{
+  display:flex;
+  margin-bottom: 20px;
+  padding: 2px 10px 0px 10px;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  padding-left:3px;
+  padding-right:3px;
+
+}
+
+a:hover{
+  text-decoration: none;
+  border-radius: 50px
+}
+
+.menu li {
+  font-size: 16px;
+  padding: 15px 5px;
+
+}
+
+.menu li a {
+  display:block;
+
+}
+
+.logo span{
+  font-size: 60px;
+  font-family: Mukta;
+  border-style: solid;
+  border: 2px;
+  border-color: white;
+  color: white;
+}
+
+.button.secondary{
+  border-bottom: 1px #404040 solid;
+}
+
+/* MOBILE MENU */
+/* MOBILE MENU */
+/* MOBILE MENU */
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 2px;
+  position:relative;
+}
+
+.toggle{
+  order:1;
+}
+
+.item.button{
+  order:2;
+}
+
+.item{
+  position:relative;
+  font-family: Open sans;
+  width:100%;
+  text-align:center;
+  order:3;
+  display:none;
+  margin-top:0.5%;
+  margin-right: 4%;
+  text-shadow: 8px 8px 5px black;
+  letter-spacing: 2px;
+}
+
+.item.active{
+  display:block;
+  margin-bottom: 95px;
+}
+
+.toggle{
+   cursor:pointer;
+}
+
+.bars{
+  background: #699FE4;
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  width:18px;
+}
+
+.bars::before,.bars:after {
+  background: #699FE4;
+  content:"";
+  display: inline-block;
+  height: 2px;
+  position: absolute;
+  width:18px;
+}
+
+.bars::before{
+  top:5px;
+}
+
+.bars::after{
+  top:-5px;
+}
+
+/* TABLET MENU */
+
+@media all and (min-width:468px){
+  .menu{
+    justify-content: space-evenly;
+  }
+  .logo{
+    flex:1;
+  }
+  .item.button{
+    width:auto;
+    order:1;
+    display:block;
+  }
+  .toggle {
+    order:2;
+  }
+  .button.secondary{
+    order:0;
+  }
+
+  .button a{
+    font-family: Roboto Flex;
+    padding: 7px 15px;
+    background: #699FE4;
+    border:1px solid #699FE4;
+    border-radius:50px;
+  }
+  .button.secondary a{
+    background:transparent;
+  }
+  .button a:hover{
+    transition: all 1s;
+  }
+  .button:not{.secondary} a:hover{
+    padding-left:10px;
+    padding-right:10px;
+    background: #699FE4;
+    border-color: #699FE4;
+    transition: 0.8s;
+    transform: scale(1.1);
+  }
+
+}
+
+@media all and (min-width: 768px){
+
+  .item{
+    display:block;
+    width:auto;
+
+  }
+  .toggle{
+    display:none;
+  }
+  .logo{
+    order:0;
+  }
+  .item{
+    order:1;
+  }
+  .button{
+    order:2;
+  }
+
+  .menu li{
+    padding:15px 10px;
+  }
+  .menu li.button{
+    padding-right:0;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  ul li:hover ul{
+    position: relative;
+    margin-left:0px;
+   }
+}
+
+/* NAVBAR ------------------------------------------------------------------------*/
+/* NAVBAR ------------------------------------------------------------------------*/
+/* NAVBAR ------------------------------------------------------------------------*/
+/* NAVBAR ------------------------------------------------------------------------*/
+/* NAVBAR ------------------------------------------------------------------------*/
+/* NAVBAR ------------------------------------------------------------------------*/
+/* NAVBAR ------------------------------------------------------------------------*/
+/* NAVBAR ------------------------------------------------------------------------*/
+/* NAVBAR ------------------------------------------------------------------------*/
+
+
+.bodyflex {
+  display:flex;
+  position: absolute;
+  justify-items: center;
+  width: 100%;
+  height: auto;
+  font-family: Open sans;
+  text-shadow: 8px 8px 5px black;
+  font-size: 2vw;
+  color: #d1d1d1;
+}
+
+.bodygrid {
+  margin-top: 0vh;
+  width: 100%;
+  height:70%;
+  display:grid;
+  grid-gap: 0px;
+  grid-template-columns: 0.45fr 1fr 1fr 0.45fr;
+  grid-template-rows: 1fr 1fr 2fr 2fr 1.5fr 2fr;
+  grid-template-areas:
+  "maingrid1 maingrid1 maingrid1 maingrid1"
+  "maingrid1 maingrid1 maingrid1 maingrid1"
+  "sidegrid1 maingrid2 maingrid2 maingrid3"
+  "sidegrid1 maingrid2 maingrid2 maingrid3"
+  "sidegrid1 maingrid2 maingrid2 maingrid3"
+  "sidegrid1 maingrid4 maingrid4 maingrid3";
+}
+
+.flex {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.sidegrid1 {
+  border-radius: 0px;
+  grid-area: sidegrid1;
+
+}
+
+.sidegrid2 {
+  background: #1c1b1bE6;
+  border-radius: 0px;
+  grid-area: sidegrid2;
+
+}
+
+.maingrid1 {
+  position:relative;
+  border-radius: 0px;
+  grid-area: maingrid1;
+}
+
+.mainpic1 {
+      object-fit: cover;
+      height: 35vh;
+      max-width: 100%;
+      filter:brightness(0.8);
+      box-shadow: -50px 50px 50px black;
+}
+
+.maingrid2 {
+  background: #1c1b1bD9;
+  position: relative;
+  border-radius: 0px;
+  grid-area: maingrid2;
+
+}
+
+.maintext2 {
+  text-align: center;
+  padding: 7vh 15vw 2vh 15vw;
+  font-weight: 800;
+  text-shadow: 4px 4px 2.5px black;
+
+}
+
+.maingrid3 {
+  border-radius: 0px;
+  grid-area: maingrid3;
+  font-size: 0.9vh;
+  text-align:center;
+
+}
+
+.maingrid4 {
+  background: #1c1b1bD9;
+  border-radius: 0px;
+  grid-area: maingrid4;
+}
+
+.typewriterheader {
+  position:absolute;
+  color: #699FE4;
+  font-family: Noto Serif;
+  font-size: 4vh;
+  letter-spacing: 0vh;
+  z-index: 10;
+  margin-top: -12vh;
+  margin-left: 2vw;
+}
+
+.typewriterfont {
+  position:absolute;
+  color: white;
+  font-family: Noto Serif;
+  font-size: 3.5vh;
+  z-index:10;
+  width: 30%;
+  margin-top: -7.5vh;
+  margin-left: 9vw;
+}
+
+.typewriter p{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+  typing 1.0s steps(40, end),
+  blink-caret .1s step-end infinite;
+}
+
+.card {
+  width:12vw;
+  margin-top: 5vh;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 5px -5px 30px #666666;
+}
+
+.cardtext{
+  width: 12vw;
+  height: 20vh;
+  color:white;
+  font-size:2.5vh;
+  padding-top:0.5vh;
+  background: #131414D9;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px -5px 30px #666666;
+}
+
+.cardlist {
+  text-decoration: none;
+  color: #699FE4;
+  font-weight: 200;
+  font-size: 2vh;
+  margin-top: 1vh;
+}
+
+.icon {
+background: #ebebeb;
+border-radius: 50%;
+padding: 5px;
+box-shadow: 0 0 0 8px #699FE4;
+height: 10vh;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+/* From uiverse.io by @Allyhere */
+.btn-donate {
+  display: block;
+  margin-top: 3vh;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3vw;
+  width:8vw;
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: hsla(194 100% 69% / 1);
+  --btn-bg-2: hsla(217 100% 56% / 1);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: 1.5vh;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+}
+
+.btn-donate:hover {
+  background-position: right top;
+}
+
+.btn-donate:is(:focus, :focus-within,:active) {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-donate {
+    transition: linear;
+  }
+}
