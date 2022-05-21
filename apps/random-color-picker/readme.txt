@@ -1,0 +1,1 @@
+made this color picker for some practice with guidance from freecodecamp
