@@ -1,22 +1,24 @@
 body {
-  background: url(https://brphillis.github.io/marvel-website/images/background.jpg);
+  background: url(https://brphillis.github.io/websites/marvel-website/images/background.jpg);
 }
 
-a, a:hover, a:active, a:visited {
+a,
+a:hover,
+a:active,
+a:visited {
   color: white;
 }
 
 .banner {
-    width: 100%;
+  width: 100%;
 }
 
 .footer {
-    width: 100%;
-    position: absolute;
-    margin-bottom: 0 auto;
-    margin-top: 200px;
+  width: 100%;
+  position: absolute;
+  margin-bottom: 0 auto;
+  margin-top: 200px;
 }
-
 
 /* NEWS FLEXBOX START */
 /* NEWS FLEXBOX START */
@@ -30,19 +32,17 @@ a, a:hover, a:active, a:visited {
   text-align: center;
   font-weight: 800;
   border-width: 4px;
-  background-color: #ED1D24;
+  background-color: #ed1d24;
   border-color: white;
-  border-style:solid;
-  width:90%;
+  border-style: solid;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
   display: block;
-
 }
 
 .newsflexbox {
-
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   display: flex;
@@ -52,26 +52,22 @@ a, a:hover, a:active, a:visited {
 }
 
 .newsflexbox2 {
-
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 10px;
   display: flex;
-
 }
 
 .newsbox1 {
   flex: 1;
   padding: 10px;
-  color:white;
-  text-align:center;
-  font-weight:bold;
-  background-color: #000000E6;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: #000000e6;
   border: 3px solid #000;
   border-radius: 8px;
-
-
 }
 
 .newsbox2 {
@@ -79,61 +75,56 @@ a, a:hover, a:active, a:visited {
   padding: 10px;
   font-size: 20px;
   font-family: "Bebas Neue";
-  color:white;
-  text-align:center;
-  font-weight:bold;
+  color: white;
+  text-align: center;
+  font-weight: bold;
   padding-bottom: 30px;
-  background-color: #000000E6;
+  background-color: #000000e6;
   border: 3px solid #000;
   border-radius: 8px;
-
 }
 
 .newsbox3 {
   flex: 1;
   padding: 10px;
-  color:white;
-  text-align:center;
-  font-weight:bold;
+  color: white;
+  text-align: center;
+  font-weight: bold;
   text-align: center;
   padding-bottom: 30px;
-  background-color: #000000E6;
+  background-color: #000000e6;
   border: 3px solid #000;
   border-radius: 8px;
-
 }
 
 .newsbox4 {
   flex: 1;
   padding: 10px;
-  color:white;
-  text-align:center;
-  font-weight:bold;
+  color: white;
+  text-align: center;
+  font-weight: bold;
   text-align: center;
   padding-bottom: 30px;
-  background-color: #000000E6;
+  background-color: #000000e6;
   border: 3px solid #000;
   border-radius: 8px;
-
 }
 
 .newsbox5 {
   flex: 1;
   padding: 10px;
-  color:white;
-  text-align:center;
-  font-weight:bold;
+  color: white;
   text-align: center;
-  background-color: #000000E6;
+  font-weight: bold;
+  text-align: center;
+  background-color: #000000e6;
   border: 3px solid #000;
   border-radius: 8px;
-
 }
 
 /* NEWS FLEXBOX END */
 /* NEWS FLEXBOX END */
 /* NEWS FLEXBOX END */
-
 
 /* VIDEO BANNNER */
 /* VIDEO BANNNER */
@@ -141,16 +132,15 @@ a, a:hover, a:active, a:visited {
 
 .videotitle {
   color: white;
-  background-color: #000000E6;
+  background-color: #000000e6;
   font-size: 24px;
   border: 3px solid #000;
   border-radius: 8px;
-  margin:0 auto;
+  margin: 0 auto;
   width: 960px;
 }
 
 .moonknightl {
-
   width: 547px;
   height: 659px;
   max-width: 100%;
@@ -158,12 +148,11 @@ a, a:hover, a:active, a:visited {
   z-index: -1;
   margin-top: -660px;
   margin-left: 50px;
-  position:relative;
+  position: relative;
   float: left;
 }
 
 .moonknightr {
-
   width: 547px;
   height: 659px;
   max-width: 100%;
@@ -171,18 +160,18 @@ a, a:hover, a:active, a:visited {
   z-index: -1;
   margin-top: -660px;
   margin-right: 50px;
-  position:relative;
+  position: relative;
   float: right;
 }
 
 .videobox {
   color: white;
-  background-color: #000000E6;
+  background-color: #000000e6;
   font-size: 24px;
   border: 3px solid #000;
   border-radius: 8px;
   padding: 20px;
-  margin:0 auto;
+  margin: 0 auto;
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -192,23 +181,22 @@ a, a:hover, a:active, a:visited {
 /* VIDEO BANNNER END */
 /* VIDEO BANNNER END */
 
-
 .web-text {
   color: white;
-  background-color: #000000E6;
+  background-color: #000000e6;
   font-size: 24px;
   border: 3px solid #000;
   border-radius: 8px;
-  margin:0 auto;
+  margin: 0 auto;
   width: 95%;
 }
 
 .web-text-small {
   color: white;
-  background-color: #000000E6;
+  background-color: #000000e6;
   font-size: 16px;
   border: 3px solid #000;
-  margin:0 auto;
+  margin: 0 auto;
   width: 95%;
 }
 
@@ -219,9 +207,9 @@ a, a:hover, a:active, a:visited {
 }
 
 .sub-titles {
-   color: black;
-   background-color: firebrick;
-   border: 3px solid#000;
+  color: black;
+  background-color: firebrick;
+  border: 3px solid#000;
 }
 
 .red-hover:hover {
@@ -233,8 +221,8 @@ a, a:hover, a:active, a:visited {
 /* NAVIGATION BAR START*/
 
 :root {
-  --primary: #B22222;
-  --light: #EEEEEE;
+  --primary: #b22222;
+  --light: #eeeeee;
   --dark: #212121;
 }
 
@@ -242,7 +230,7 @@ a, a:hover, a:active, a:visited {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Fira sans', sans-serif;
+  font-family: "Fira sans", sans-serif;
 }
 
 .container {
@@ -255,14 +243,14 @@ a, a:hover, a:active, a:visited {
 }
 
 nav {
-  clear:both;
+  clear: both;
   transform: translateY(-65px);
-  background-color: #000000E6;
+  background-color: #000000e6;
   border: 2px solid#000;
   padding: 10px 30px;
   border-radius: 8px;
-  margin:0 auto;
-  margin-top:5px;
+  margin: 0 auto;
+  margin-top: 5px;
   width: 90% !important;
 }
 
@@ -304,9 +292,9 @@ h1 {
   transition: 0.4s;
 }
 
-.hamburger:hover span:nth-child(2){
- transform: translateX(1px);
- background-color: var(--primary);
+.hamburger:hover span:nth-child(2) {
+  transform: translateX(1px);
+  background-color: var(--primary);
 }
 
 .hamburger.is-active span:nth-child(1) {
@@ -319,10 +307,10 @@ h1 {
 }
 
 .hamburger.is-active span:nth-child(3) {
-   transform: translate(-3px, 3px) rotate(-45deg);
+  transform: translate(-3px, 3px) rotate(-45deg);
 }
 
-.hamburger.is-active:hover span{
+.hamburger.is-active:hover span {
   background-color: var(--primary);
 }
 
@@ -331,45 +319,48 @@ h1 {
   flex: 1 1 0%;
   justify-content: flex-end;
   margin: auto;
-    }
+}
 
-    .menu a {
-      color: white;
-      margin: auto;
-      font-weight: 600;
-      text-decoration: none;
-      transition: 0.4s;
-      padding: 8px 16px;
-      border-radius: 99px;
-      font-size: 18px;
-    }
+.menu a {
+  color: white;
+  margin: auto;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 8px 16px;
+  border-radius: 99px;
+  font-size: 18px;
+}
 
-    .menu a.is-active, .menu a:hover {
-      background-color: var(--primary);
-    }
+.menu a.is-active,
+.menu a:hover {
+  background-color: var(--primary);
+}
 
 @media (min-width: 768px) {
   .hamburger {
-   display:none;
- }
-.menu {
-  display: flex;
-    }
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
 }
 
-input[type=text], select, textarea {
- width: 100%;
- padding: 12px;
- border: 1px solid #ccc;
- border-radius: 4px;
- box-sizing: border-box;
- margin-top: 6px;
- margin-bottom: 16px;
- resize: vertical;
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #04AA6D;
+input[type="submit"] {
+  background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -381,49 +372,42 @@ input[type=submit] {
 /* NAVIGATION BAR END*/
 /* NAVIGATION BAR END*/
 
-
 /*---------------------------------------CHARACTERS PAGE---------------------*/
 /*---------------------------------------CHARACTERS PAGE---------------------*/
 /*---------------------------------------CHARACTERS PAGE---------------------*/
 
 .mastercontentbox {
-
-  flex:wrap;
-  display:flex;
+  flex: wrap;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-
 }
 
 .characterscontentbox {
-
-  flex:wrap;
-  display:flex;
+  flex: wrap;
+  display: flex;
   flex-wrap: wrap;
   padding: 30px 50px 30px 50px;
   background-color: #00000099;
   border: 1px solid #000;
   border-radius: 50px;
-
 }
 
 .boxtitle {
-
-    font-family: "Bebas Neue";
-    color: white;
-    font-size: 50px;
-    font-style: italic;
-    text-align: center;
-    font-weight: 800;
-    border-width: 4px;
-    background-color: #ED1D24;
-    border-color: white;
-    border: solid;
-    padding-left: 10px;
-    padding-right: 15px;
-
+  font-family: "Bebas Neue";
+  color: white;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+  font-weight: 800;
+  border-width: 4px;
+  background-color: #ed1d24;
+  border-color: white;
+  border: solid;
+  padding-left: 10px;
+  padding-right: 15px;
 }
 
 /*-------------------- HERO 1 ----------------------*/
@@ -435,29 +419,29 @@ input[type=submit] {
   margin-bottom: -120px;
 }
 
-
-.characterthumbnail.is-clicked, .characterthumbnail-inner.is-clicked, .characterthumbnail-front.is-clicked, .characterthumbnail-back.is-clicked {
+.characterthumbnail.is-clicked,
+.characterthumbnail-inner.is-clicked,
+.characterthumbnail-front.is-clicked,
+.characterthumbnail-back.is-clicked {
   transform: scale(1.5);
-  margin-right:90%;
+  margin-right: 90%;
   padding-top: 145px;
   padding-left: 15px;
   padding-bottom: 160px;
-  order:-1;
+  order: -1;
 }
 
-
-.characterthumbnail:hover .characterthumbnail-inner{
+.characterthumbnail:hover .characterthumbnail-inner {
   transform: rotateY(180deg);
-  transition: 1.0s;
-
+  transition: 1s;
 }
 
-.characterthumbnail-front, .characterthumbnail-back {
+.characterthumbnail-front,
+.characterthumbnail-back {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
 }
 
 .characterthumbnail-inner {
@@ -466,34 +450,30 @@ input[type=submit] {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 .characterthumbnail-front {
- margin-top: -264px;
+  margin-top: -264px;
 }
 
 .characterthumbnail-back {
   transform: rotateY(180deg);
-  transition: 1.0s;
+  transition: 1s;
   margin-top: -120px;
-
 }
 
 #hiddentext {
-  position:absolute;
-  color:white;
+  position: absolute;
+  color: white;
   font-family: "Lucida Sans";
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: -250px;
-  width:205%;
-
+  width: 205%;
 }
 
 /*-------------------- HERO 1 END ----------------------*/
 /*-------------------- HERO 1 END ----------------------*/
 /*-------------------- HERO 1 END ----------------------*/
-
 
 /*-------------------- HERO 2 ----------------------*/
 /*-------------------- HERO 2 ----------------------*/
@@ -504,28 +484,29 @@ input[type=submit] {
   margin-bottom: -120px;
 }
 
-
-.characterthumbnail2.is-clicked, .characterthumbnail-inner2.is-clicked, .characterthumbnail-front2.is-clicked, .characterthumbnail-back2.is-clicked {
+.characterthumbnail2.is-clicked,
+.characterthumbnail-inner2.is-clicked,
+.characterthumbnail-front2.is-clicked,
+.characterthumbnail-back2.is-clicked {
   transform: scale(1.5);
-  margin-right:90%;
+  margin-right: 90%;
   padding-top: 145px;
   padding-left: 15px;
   padding-bottom: 160px;
-  order:-1;
+  order: -1;
 }
 
-.characterthumbnail2:hover .characterthumbnail-inner2{
+.characterthumbnail2:hover .characterthumbnail-inner2 {
   transform: rotateY(180deg);
-  transition: 1.0s;
-
+  transition: 1s;
 }
 
-.characterthumbnail-front2, .characterthumbnail-back2 {
+.characterthumbnail-front2,
+.characterthumbnail-back2 {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
 }
 
 .characterthumbnail-inner2 {
@@ -534,28 +515,25 @@ input[type=submit] {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 .characterthumbnail-front2 {
- margin-top: -264px;
+  margin-top: -264px;
 }
 
 .characterthumbnail-back2 {
   transform: rotateY(180deg);
-  transition: 1.0s;
+  transition: 1s;
   margin-top: -120px;
-
 }
 
 #hiddentext2 {
-  position:absolute;
-  color:white;
+  position: absolute;
+  color: white;
   font-family: "Lucida Sans";
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: -250px;
-  width:205%;
-
+  width: 205%;
 }
 
 /*-------------------- HERO 2 END ----------------------*/
@@ -571,28 +549,29 @@ input[type=submit] {
   margin-bottom: -120px;
 }
 
-
-.characterthumbnail3.is-clicked, .characterthumbnail-inner3.is-clicked, .characterthumbnail-front3.is-clicked, .characterthumbnail-back3.is-clicked {
+.characterthumbnail3.is-clicked,
+.characterthumbnail-inner3.is-clicked,
+.characterthumbnail-front3.is-clicked,
+.characterthumbnail-back3.is-clicked {
   transform: scale(1.5);
-  margin-right:90%;
+  margin-right: 90%;
   padding-top: 145px;
   padding-left: 15px;
   padding-bottom: 160px;
-  order:-1;
+  order: -1;
 }
 
-.characterthumbnail3:hover .characterthumbnail-inner3{
+.characterthumbnail3:hover .characterthumbnail-inner3 {
   transform: rotateY(180deg);
-  transition: 1.0s;
-
+  transition: 1s;
 }
 
-.characterthumbnail-front3, .characterthumbnail-back3 {
+.characterthumbnail-front3,
+.characterthumbnail-back3 {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
 }
 
 .characterthumbnail-inner3 {
@@ -601,27 +580,25 @@ input[type=submit] {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 .characterthumbnail-front3 {
- margin-top: -264px;
+  margin-top: -264px;
 }
 
 .characterthumbnail-back3 {
   transform: rotateY(180deg);
-  transition: 1.0s;
+  transition: 1s;
   margin-top: -120px;
-
 }
 
 #hiddentext3 {
-  position:absolute;
-  color:white;
+  position: absolute;
+  color: white;
   font-family: "Lucida Sans";
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: -250px;
-  width:205%;
+  width: 205%;
 }
 
 /*-------------------- HERO 3 END ----------------------*/
@@ -637,28 +614,29 @@ input[type=submit] {
   margin-bottom: -120px;
 }
 
-
-.characterthumbnail4.is-clicked, .characterthumbnail-inner4.is-clicked, .characterthumbnail-front4.is-clicked, .characterthumbnail-back4.is-clicked {
+.characterthumbnail4.is-clicked,
+.characterthumbnail-inner4.is-clicked,
+.characterthumbnail-front4.is-clicked,
+.characterthumbnail-back4.is-clicked {
   transform: scale(1.5);
-  margin-right:90%;
+  margin-right: 90%;
   padding-top: 145px;
   padding-left: 15px;
   padding-bottom: 160px;
-  order:-1;
+  order: -1;
 }
 
-.characterthumbnail4:hover .characterthumbnail-inner4{
+.characterthumbnail4:hover .characterthumbnail-inner4 {
   transform: rotateY(180deg);
-  transition: 1.0s;
-
+  transition: 1s;
 }
 
-.characterthumbnail-front4, .characterthumbnail-back4 {
+.characterthumbnail-front4,
+.characterthumbnail-back4 {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
 }
 
 .characterthumbnail-inner4 {
@@ -667,28 +645,25 @@ input[type=submit] {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 .characterthumbnail-front4 {
- margin-top: -264px;
+  margin-top: -264px;
 }
 
 .characterthumbnail-back4 {
   transform: rotateY(180deg);
-  transition: 1.0s;
+  transition: 1s;
   margin-top: -120px;
-
 }
 
 #hiddentext4 {
-  position:absolute;
-  color:white;
+  position: absolute;
+  color: white;
   font-family: "Lucida Sans";
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: -250px;
-  width:205%;
-
+  width: 205%;
 }
 
 /*-------------------- HERO 4 END ----------------------*/
@@ -704,28 +679,29 @@ input[type=submit] {
   margin-bottom: -120px;
 }
 
-
-.characterthumbnail5.is-clicked, .characterthumbnail-inner5.is-clicked, .characterthumbnail-front5.is-clicked, .characterthumbnail-back5.is-clicked {
+.characterthumbnail5.is-clicked,
+.characterthumbnail-inner5.is-clicked,
+.characterthumbnail-front5.is-clicked,
+.characterthumbnail-back5.is-clicked {
   transform: scale(1.5);
-  margin-right:90%;
+  margin-right: 90%;
   padding-top: 145px;
   padding-left: 15px;
   padding-bottom: 160px;
-  order:-1;
+  order: -1;
 }
 
-.characterthumbnail5:hover .characterthumbnail-inner5{
+.characterthumbnail5:hover .characterthumbnail-inner5 {
   transform: rotateY(180deg);
-  transition: 1.0s;
-
+  transition: 1s;
 }
 
-.characterthumbnail-front5, .characterthumbnail-back5 {
+.characterthumbnail-front5,
+.characterthumbnail-back5 {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
 }
 
 .characterthumbnail-inner5 {
@@ -734,28 +710,25 @@ input[type=submit] {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 .characterthumbnail-front5 {
- margin-top: -264px;
+  margin-top: -264px;
 }
 
 .characterthumbnail-back5 {
   transform: rotateY(180deg);
-  transition: 1.0s;
+  transition: 1s;
   margin-top: -120px;
-
 }
 
 #hiddentext5 {
-  position:absolute;
-  color:white;
+  position: absolute;
+  color: white;
   font-family: "Lucida Sans";
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: -250px;
-  width:205%;
-
+  width: 205%;
 }
 
 /*-------------------- HERO 5 END ----------------------*/
@@ -771,28 +744,29 @@ input[type=submit] {
   margin-bottom: -120px;
 }
 
-
-.characterthumbnail6.is-clicked, .characterthumbnail-inner6.is-clicked, .characterthumbnail-front6.is-clicked, .characterthumbnail-back6.is-clicked {
+.characterthumbnail6.is-clicked,
+.characterthumbnail-inner6.is-clicked,
+.characterthumbnail-front6.is-clicked,
+.characterthumbnail-back6.is-clicked {
   transform: scale(1.5);
-  margin-right:90%;
+  margin-right: 90%;
   padding-top: 145px;
   padding-left: 15px;
   padding-bottom: 160px;
-  order:-1;
+  order: -1;
 }
 
-.characterthumbnail6:hover .characterthumbnail-inner6{
+.characterthumbnail6:hover .characterthumbnail-inner6 {
   transform: rotateY(180deg);
-  transition: 1.0s;
-
+  transition: 1s;
 }
 
-.characterthumbnail-front6, .characterthumbnail-back6 {
+.characterthumbnail-front6,
+.characterthumbnail-back6 {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
 }
 
 .characterthumbnail-inner6 {
@@ -801,28 +775,25 @@ input[type=submit] {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 .characterthumbnail-front6 {
- margin-top: -264px;
+  margin-top: -264px;
 }
 
 .characterthumbnail-back6 {
   transform: rotateY(180deg);
-  transition: 1.0s;
+  transition: 1s;
   margin-top: -120px;
-
 }
 
 #hiddentext6 {
-  position:absolute;
-  color:white;
+  position: absolute;
+  color: white;
   font-family: "Lucida Sans";
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: -250px;
-  width:205%;
-
+  width: 205%;
 }
 
 /*-------------------- HERO 6 END ----------------------*/
@@ -838,28 +809,29 @@ input[type=submit] {
   margin-bottom: -120px;
 }
 
-
-.characterthumbnailv1.is-clicked, .characterthumbnail-innerv1.is-clicked, .characterthumbnail-frontv1.is-clicked, .characterthumbnail-backv1.is-clicked {
+.characterthumbnailv1.is-clicked,
+.characterthumbnail-innerv1.is-clicked,
+.characterthumbnail-frontv1.is-clicked,
+.characterthumbnail-backv1.is-clicked {
   transform: scale(1.5);
-  margin-right:90%;
+  margin-right: 90%;
   padding-top: 145px;
   padding-left: 15px;
   padding-bottom: 160px;
-  order:-1;
+  order: -1;
 }
 
-.characterthumbnailv1:hover .characterthumbnail-innerv1{
+.characterthumbnailv1:hover .characterthumbnail-innerv1 {
   transform: rotateY(180deg);
-  transition: 1.0s;
-
+  transition: 1s;
 }
 
-.characterthumbnail-frontv1, .characterthumbnail-backv1 {
+.characterthumbnail-frontv1,
+.characterthumbnail-backv1 {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
 }
 
 .characterthumbnail-innerv1 {
@@ -868,28 +840,25 @@ input[type=submit] {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 .characterthumbnail-frontv1 {
- margin-top: -264px;
+  margin-top: -264px;
 }
 
 .characterthumbnail-backv1 {
   transform: rotateY(180deg);
-  transition: 1.0s;
+  transition: 1s;
   margin-top: -120px;
-
 }
 
 #hiddentextv1 {
-  position:absolute;
-  color:white;
+  position: absolute;
+  color: white;
   font-family: "Lucida Sans";
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: -250px;
-  width:205%;
-
+  width: 205%;
 }
 
 /*-------------------- HERO V1 END ----------------------*/
@@ -905,28 +874,29 @@ input[type=submit] {
   margin-bottom: -120px;
 }
 
-
-.characterthumbnailv2.is-clicked, .characterthumbnail-innerv2.is-clicked, .characterthumbnail-frontv2.is-clicked, .characterthumbnail-backv2.is-clicked {
+.characterthumbnailv2.is-clicked,
+.characterthumbnail-innerv2.is-clicked,
+.characterthumbnail-frontv2.is-clicked,
+.characterthumbnail-backv2.is-clicked {
   transform: scale(1.5);
-  margin-right:90%;
+  margin-right: 90%;
   padding-top: 145px;
   padding-left: 15px;
   padding-bottom: 160px;
-  order:-1;
+  order: -1;
 }
 
-.characterthumbnailv2:hover .characterthumbnail-innerv2{
+.characterthumbnailv2:hover .characterthumbnail-innerv2 {
   transform: rotateY(180deg);
-  transition: 1.0s;
-
+  transition: 1s;
 }
 
-.characterthumbnail-frontv2, .characterthumbnail-backv2 {
+.characterthumbnail-frontv2,
+.characterthumbnail-backv2 {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
 }
 
 .characterthumbnail-innerv2 {
@@ -935,34 +905,30 @@ input[type=submit] {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 .characterthumbnail-frontv2 {
- margin-top: -264px;
+  margin-top: -264px;
 }
 
 .characterthumbnail-backv2 {
   transform: rotateY(180deg);
-  transition: 1.0s;
+  transition: 1s;
   margin-top: -120px;
-
 }
 
 #hiddentextv2 {
-  position:absolute;
-  color:white;
+  position: absolute;
+  color: white;
   font-family: "Lucida Sans";
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: -250px;
-  width:205%;
-
+  width: 205%;
 }
 
 /*-------------------- HERO V2 END ----------------------*/
 /*-------------------- HERO V2 END ----------------------*/
 /*-------------------- HERO V2 END ----------------------*/
-
 
 /*-------------------- HERO V3 ----------------------*/
 /*-------------------- HERO V3 ----------------------*/
@@ -973,28 +939,29 @@ input[type=submit] {
   margin-bottom: -120px;
 }
 
-
-.characterthumbnailv3.is-clicked, .characterthumbnail-innerv3.is-clicked, .characterthumbnail-frontv3.is-clicked, .characterthumbnail-backv3.is-clicked {
+.characterthumbnailv3.is-clicked,
+.characterthumbnail-innerv3.is-clicked,
+.characterthumbnail-frontv3.is-clicked,
+.characterthumbnail-backv3.is-clicked {
   transform: scale(1.5);
-  margin-right:90%;
+  margin-right: 90%;
   padding-top: 145px;
   padding-left: 15px;
   padding-bottom: 160px;
-  order:-1;
+  order: -1;
 }
 
-.characterthumbnailv3:hover .characterthumbnail-innerv3{
+.characterthumbnailv3:hover .characterthumbnail-innerv3 {
   transform: rotateY(180deg);
-  transition: 1.0s;
-
+  transition: 1s;
 }
 
-.characterthumbnail-frontv3, .characterthumbnail-backv3 {
+.characterthumbnail-frontv3,
+.characterthumbnail-backv3 {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
 }
 
 .characterthumbnail-innerv3 {
@@ -1003,28 +970,25 @@ input[type=submit] {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 .characterthumbnail-frontv3 {
- margin-top: -264px;
+  margin-top: -264px;
 }
 
 .characterthumbnail-backv3 {
   transform: rotateY(180deg);
-  transition: 1.0s;
+  transition: 1s;
   margin-top: -120px;
-
 }
 
 #hiddentextv3 {
-  position:absolute;
-  color:white;
+  position: absolute;
+  color: white;
   font-family: "Lucida Sans";
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: -250px;
-  width:205%;
-
+  width: 205%;
 }
 
 /*-------------------- HERO V3 END ----------------------*/
@@ -1040,28 +1004,29 @@ input[type=submit] {
   margin-bottom: -120px;
 }
 
-
-.characterthumbnailv4.is-clicked, .characterthumbnail-innerv4.is-clicked, .characterthumbnail-frontv4.is-clicked, .characterthumbnail-backv4.is-clicked {
+.characterthumbnailv4.is-clicked,
+.characterthumbnail-innerv4.is-clicked,
+.characterthumbnail-frontv4.is-clicked,
+.characterthumbnail-backv4.is-clicked {
   transform: scale(1.5);
-  margin-right:90%;
+  margin-right: 90%;
   padding-top: 145px;
   padding-left: 15px;
   padding-bottom: 160px;
-  order:-1;
+  order: -1;
 }
 
-.characterthumbnailv4:hover .characterthumbnail-innerv4{
+.characterthumbnailv4:hover .characterthumbnail-innerv4 {
   transform: rotateY(180deg);
-  transition: 1.0s;
-
+  transition: 1s;
 }
 
-.characterthumbnail-frontv4, .characterthumbnail-backv4 {
+.characterthumbnail-frontv4,
+.characterthumbnail-backv4 {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
 }
 
 .characterthumbnail-innerv4 {
@@ -1070,28 +1035,25 @@ input[type=submit] {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 .characterthumbnail-frontv4 {
- margin-top: -264px;
+  margin-top: -264px;
 }
 
 .characterthumbnail-backv4 {
   transform: rotateY(180deg);
-  transition: 1.0s;
+  transition: 1s;
   margin-top: -120px;
-
 }
 
 #hiddentextv4 {
-  position:absolute;
-  color:white;
+  position: absolute;
+  color: white;
   font-family: "Lucida Sans";
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: -250px;
-  width:205%;
-
+  width: 205%;
 }
 
 /*-------------------- HERO V4 END ----------------------*/
@@ -1107,28 +1069,29 @@ input[type=submit] {
   margin-bottom: -120px;
 }
 
-
-.characterthumbnailv5.is-clicked, .characterthumbnail-innerv5.is-clicked, .characterthumbnail-frontv5.is-clicked, .characterthumbnail-backv5.is-clicked {
+.characterthumbnailv5.is-clicked,
+.characterthumbnail-innerv5.is-clicked,
+.characterthumbnail-frontv5.is-clicked,
+.characterthumbnail-backv5.is-clicked {
   transform: scale(1.5);
-  margin-right:90%;
+  margin-right: 90%;
   padding-top: 145px;
   padding-left: 15px;
   padding-bottom: 160px;
-  order:-1;
+  order: -1;
 }
 
-.characterthumbnailv5:hover .characterthumbnail-innerv5{
+.characterthumbnailv5:hover .characterthumbnail-innerv5 {
   transform: rotateY(180deg);
-  transition: 1.0s;
-
+  transition: 1s;
 }
 
-.characterthumbnail-frontv5, .characterthumbnail-backv5 {
+.characterthumbnail-frontv5,
+.characterthumbnail-backv5 {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
 }
 
 .characterthumbnail-innerv5 {
@@ -1137,28 +1100,25 @@ input[type=submit] {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 .characterthumbnail-frontv5 {
- margin-top: -264px;
+  margin-top: -264px;
 }
 
 .characterthumbnail-backv5 {
   transform: rotateY(180deg);
-  transition: 1.0s;
+  transition: 1s;
   margin-top: -120px;
-
 }
 
 #hiddentextv5 {
-  position:absolute;
-  color:white;
+  position: absolute;
+  color: white;
   font-family: "Lucida Sans";
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: -250px;
-  width:205%;
-
+  width: 205%;
 }
 
 /*-------------------- HERO V5 END ----------------------*/
@@ -1174,28 +1134,29 @@ input[type=submit] {
   margin-bottom: -120px;
 }
 
-
-.characterthumbnailv6.is-clicked, .characterthumbnail-innerv6.is-clicked, .characterthumbnail-frontv6.is-clicked, .characterthumbnail-backv6.is-clicked {
+.characterthumbnailv6.is-clicked,
+.characterthumbnail-innerv6.is-clicked,
+.characterthumbnail-frontv6.is-clicked,
+.characterthumbnail-backv6.is-clicked {
   transform: scale(1.5);
-  margin-right:90%;
+  margin-right: 90%;
   padding-top: 145px;
   padding-left: 15px;
   padding-bottom: 160px;
-  order:-1;
+  order: -1;
 }
 
-.characterthumbnailv6:hover .characterthumbnail-innerv6{
+.characterthumbnailv6:hover .characterthumbnail-innerv6 {
   transform: rotateY(180deg);
-  transition: 1.0s;
-
+  transition: 1s;
 }
 
-.characterthumbnail-frontv6, .characterthumbnail-backv6 {
+.characterthumbnail-frontv6,
+.characterthumbnail-backv6 {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
 }
 
 .characterthumbnail-innerv6 {
@@ -1204,59 +1165,48 @@ input[type=submit] {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 .characterthumbnail-frontv6 {
- margin-top: -264px;
+  margin-top: -264px;
 }
 
 .characterthumbnail-backv6 {
   transform: rotateY(180deg);
-  transition: 1.0s;
+  transition: 1s;
   margin-top: -120px;
-
 }
 
 #hiddentextv6 {
-  position:absolute;
-  color:white;
+  position: absolute;
+  color: white;
   font-family: "Lucida Sans";
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: -250px;
-  width:205%;
-
+  width: 205%;
 }
 
 /*-------------------- HERO V6 END ----------------------*/
 /*-------------------- HERO V6 END ----------------------*/
 /*-------------------- HERO V6 END ----------------------*/
-
 
 .thumbnailcaption {
   font-family: "Bebas Neue";
   font-weight: 300;
   font-size: 34px;
-  margin-top:-75px;
+  margin-top: -75px;
   color: white;
   text-shadow: 4px 4px #000000;
-
 }
 
 .thumbnailcaptionsmall {
   font-family: "Bebas Neue";
   font-weight: 300;
   font-size: 28px;
-  margin-top:-75px;
+  margin-top: -75px;
   color: white;
   text-shadow: 4px 4px #000000;
-
 }
-
-
-
-
-
 
 /*---------------------------------------CHARACTERS PAGE END---------------------*/
 /*---------------------------------------CHARACTERS PAGE END---------------------*/
