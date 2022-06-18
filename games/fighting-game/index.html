@@ -1,0 +1,136 @@
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: "Press Start 2P", cursive;
+    }
+  </style>
+</head>
+<body>
+  <div style="position: relative; display: inline-block">
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+      "
+    >
+      <!-- PLAYER HEALTH -->
+      <div
+        style="
+          position: relative;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          border-radius: 50px 0 0 50px;
+          border-top: 2px solid rgb(151, 151, 151);
+          border-bottom: 2px solid rgb(151, 151, 151);
+          border-right: 2px solid rgb(151, 151, 151);
+        "
+      >
+        <div style="height: 30px; width: 100%"></div>
+        <div
+          id="playerHealth"
+          style="
+            position: absolute;
+            background-image: linear-gradient(
+              to right,
+              rgb(39, 170, 22),
+              rgb(197, 197, 16),
+              rgb(230, 11, 11)
+            );
+            border-radius: 50px 0 0 50px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+          "
+        ></div>
+      </div>
+
+      <!-- TIMER -->
+      <div
+        id="timer"
+        style="
+          background-color: black;
+          width: 100px;
+          height: 50px;
+          border-radius: 5px;
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          border: 4px solid white;
+        "
+      >
+        10
+      </div>
+      <!-- ENEMY HEALTH -->
+      <div
+        style="
+          position: relative;
+          width: 100%;
+          border-radius: 0 50px 50px 0;
+          border-top: 2px solid rgb(151, 151, 151);
+          border-bottom: 2px solid rgb(151, 151, 151);
+          border-right: 2px solid rgb(151, 151, 151);
+        "
+      >
+        <div style="height: 30px; width: 100%"></div>
+        <div
+          id="enemyHealth"
+          style="
+            position: absolute;
+            background-image: linear-gradient(
+              to left,
+              rgb(39, 170, 22),
+              rgb(197, 197, 16),
+              rgb(230, 11, 11)
+            );
+            border-radius: 0 50px 50px 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+          "
+        ></div>
+      </div>
+      <div></div>
+    </div>
+    <div
+      id="displayText"
+      style="
+        position: absolute;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: none;
+      "
+    >
+      Tie
+    </div>
+    <canvas></canvas>
+  </div>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/utils.js"></script>
+  <script src="js/classes.js"></script>
+  <script src="index.js"></script>
+</body>
